@@ -12,3 +12,36 @@ sudo: Executes a command with superuser privileges.
 ```sh
 sudo -i
 ```
+
+Switch to the root user:
+```sh
+su -
+```
+
+set the root password
+```sh
+sudo passwd root
+```
+
+Get back to normal:
+```sh
+sudo passwd root
+```
+
+For Creating the  new user:
+```sh
+sudo adduser newusername
+
+```
+For Creating password
+```sh
+sudo passwd username
+
+```
+
+To change the password for existing user or current user:
+```sh
+ passwd 
+
+```
+
